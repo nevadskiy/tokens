@@ -1,0 +1,43 @@
+{
+    "name": "nevadskiy/tokens",
+    "description": "Easy tokens management for Laravel",
+    "keywords": [
+        "laravel",
+        "tokens",
+        "token"
+    ],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Nevadskiy\\Tokens\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nevadskiy\\Tokens\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "~5.8.0|^6.0|^7.0",
+        "nesbot/carbon": "^2.0",
+        "hashids/hashids": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "orchestra/testbench": "^4.0",
+        "mockery/mockery": "^1.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nevadskiy\\Tokens\\TokenServiceProvider"
+            ],
+            "aliases": {
+                "TokenManager": "Nevadskiy\\Tokens\\Facades\\TokenManager"
+            }
+        }
+    }
+}
