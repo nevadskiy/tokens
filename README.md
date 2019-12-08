@@ -1,5 +1,5 @@
-# 📦Easy one-time tokens management for Laravel
-📦This package allows you to generate and use one-time tokens for different models.
+# 📦 Easy one-time tokens management for Laravel
+This package allows you to generate and use one-time tokens for different models.
 
 ## About
 The package provides a similar to the default password_resets approach but is more unique and can be used for any type of tokens using a single database table, e.g. reset passwords, 2FA authentication, email verification, confirmation codes, magic auth links and others. 
