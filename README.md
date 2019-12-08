@@ -213,7 +213,7 @@ Also, if you want to use throttling, implement `GenerationLimit` / `UsageLimit` 
 
 ## 🚧 Testing
 ```
-vendor/bin/phpunit test
+vendor/bin/phpunit
 ```
 
 Or using docker:
