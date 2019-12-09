@@ -134,7 +134,7 @@ TokenManager::useFor($request->token, 'verification', $user, function (User $use
 
 #### Handling exceptions
 Obviously, there are a lot of cases where a token cannot be found, expired, already used or just too usage many usage attempts.
-TokenManager throws corresponding exceptions for each case, so you need to catch the to show needed messages to your users like this:
+TokenManager throws corresponding exceptions for each case, so you need to catch them to show needed messages to your users like this:
 ```
 use Nevadskiy\Tokens\Exceptions\LockoutException;
 use Nevadskiy\Tokens\Exceptions\TokenException;
