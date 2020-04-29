@@ -233,3 +233,7 @@ If you discover any security related issues, please [e-mail me](mailto:nevadskiy
 
 ## 📜 License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## To Do
+- [ ] refactor using uuid primary key
+
